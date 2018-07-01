@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kreatorku.kreatorku_mobile.Views.HomeActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--ActionBar-->
+        <RelativeLayout
+            android:id="@+id/relativeLayout_action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/custom_action_bar" />
+            <SearchView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></SearchView>
+        </RelativeLayout>
+
+        <!--body-->
+        <RelativeLayout
+            android:id="@+id/relativeLayout_body"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/relativeLayout_action_bar">
+
+        </RelativeLayout>
+
+        <include layout="@layout/layout_bottom_nav"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

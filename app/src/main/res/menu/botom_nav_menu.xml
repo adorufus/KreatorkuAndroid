@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/kreator_home"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Beranda">
+    </item>
+
+    <item
+        android:id="@+id/kreator_explore"
+        android:icon="@drawable/ic_explore"
+        android:title="Jelajah">
+    </item>
+
+    <item
+        android:id="@+id/kreator_account"
+        android:icon="@drawable/ic_login"
+        android:title="Akun">
+    </item>
+</menu>

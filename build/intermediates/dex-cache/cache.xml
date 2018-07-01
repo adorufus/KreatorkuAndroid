@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Redacted-PC\.android\build-cache\00dc26ed69f12c3c16975b8e81e2e70c58bde8bf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="E:\android-studio-ide-162.4069837-windows\AndroidProjects\KreatorkuMobile\app\build\intermediates\pre-dexed\debug\classes_fc22e23d743d2405f85314678ee7f5e3e611e6e2.jar" />
+    </item>
+
+</items>

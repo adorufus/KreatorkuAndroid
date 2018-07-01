@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kreatorku.kreatorku_mobile.Views.AccountActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--body-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red">
+
+        <ImageButton
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="29dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_close" />
+
+        <TextView
+            android:id="@+id/text_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Kamu seorang Kreator?"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_question"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="Tertarik untuk menjual karyamu ke banyak orang?"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/text_question"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/text_question"
+            android:layout_marginBottom="46dp"
+            android:elevation="1dp"
+            android:text="Masuk"
+            android:textColor="@color/red" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/login_button"
+            android:layout_alignBottom="@+id/login_button"
+            android:layout_alignLeft="@+id/text_question"
+            android:layout_alignStart="@+id/text_question"
+            android:elevation="1dp"
+            android:text="Daftar"
+            android:textColor="@color/red" />
+
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
